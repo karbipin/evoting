@@ -1,0 +1,120 @@
+body{
+    background-image:url("./Images/acem.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+   
+}
+.login{
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    /* width: 400px; */
+    text-align: center;
+    padding: auto;
+    /* max-width: 40%; */
+    height: 700px;
+   
+    
+}
+.login h1{
+    /* background-image: url("Images/acem.jpg"); */
+    padding: 10px 50px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    color: wblack;
+    font-size: 2em;
+    /* background-color: aquamarine; */
+    /* border: 0.5px solid black; */
+    transition: all;
+}
+form{
+    /* display: block; */
+    padding-top: 30px;
+    text-align: center;
+  
+}
+.login input{
+    height: 40px;
+    width: 350px;
+    padding: 2%;
+    margin: 2%;;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    /*outline: none;*/
+    background: edf6f9a;
+    /* border: none1 px solid blanchedalmond;  */
+    /* position: relative;  */
+}
+form button{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    margin: 20px ;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+form button:hover{
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+}
+form a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+form a:hover{
+    color: green;
+}
+.open-button {
+    background-color:blue;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-style: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 100px;
+}
+.open-button:hover{
+    font-weight: bold;
+    color:whitesmoke;
+    opacity: 1;
+}
+#loginSection {
+    padding: 5px;
+    height: 400px;
+          width: 500px;
+          margin-top: auto;
+          margin-bottom: auto;
+          background:whitesmoke;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          padding: 10px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border-radius: 5px;
+  
+  }
+  .brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid edf6f9;
+  }
+  

@@ -1,0 +1,135 @@
+
+body{
+
+    background-image:url("./Images/acem.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.registerform h1{
+    padding: 10px 50px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2em;
+    /* background-color:aquamarine; */
+}
+.registerform{
+    text-align: center;
+    background-color: aliceblue;
+    border: 0.5px solid white;
+}
+.registerform input{
+    height: 40px;
+    width: 400px;
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    /*outline: none;*/
+    /* background:whitesmoke; */
+    border: 0.5px solid black; 
+    position: relative; 
+
+
+}
+form button{
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    margin: 20px ;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+form button:hover{
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+}
+.open-button {
+    background-color: blue;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-style: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 100px;
+    color: whitesmoke;
+}
+.open-button:hover{
+    font-weight: bold;
+    color: whitesmoke;
+    opacity: 1;
+}
+#loginSection {
+    padding: 5px;
+    height: 500px;
+          width: 500px;
+          margin-top: auto;
+          margin-bottom: auto;
+          background:whitesmoke;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          padding: 10px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border-radius: 5px;
+  
+  }
+  .brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+  }
+   
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }

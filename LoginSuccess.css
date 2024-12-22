@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    font-family: 'poppins',sans-serif;
+}
+.space{
+    width: 250px;
+    min-height: 250vh;
+    background-color:aquamarine;
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+}
+.space a{
+    display: block;
+    color: black;
+    font-size: 20px;
+    padding: 16px;
+    text-decoration: none;
+}
+.space a:hover{
+    background-color: black;
+    color: white;
+}
+.row {
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    overflow-x:auto;
+  }
+ .space .card {
+    width:200px;
+    height:400px;
+    box-shadow: 5px 6px 5px black;
+    padding-top: 20px;
+    text-align: left;
+  }
+  .row .card{
+    margin-left: 270px;
+    position: static;
+  }
+  div .card {
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 6px 20px lightseagreen;
+  }
+.detail-btn{
+  padding: 10px;
+  margin: 10px;
+}
+.card-body{
+  text-align: center;
+}
